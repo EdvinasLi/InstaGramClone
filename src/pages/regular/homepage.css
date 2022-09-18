@@ -1,0 +1,102 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    }
+    
+    .userList { grid-area: 1 / 1 / 3 / 4; 
+   border:1px solid black;
+    width: 50rem;
+    
+margin-top: 15px;
+display:flex;
+padding: 2rem 3rem;
+
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+    }
+    .postArea { grid-area: 3 / 1 / 6 / 4; 
+ 
+    margin-top: 20px;
+   
+    }
+    .randomUser { grid-area: 1 / 4 / 6 / 6; 
+    background-color: #16a28f;
+    margin-left: 30px;
+    margin-top:15px;
+    } 
+    
+    .mainBody{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .user img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .user{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .user p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box{
+        border:1px solid Black;
+        width: 100%;  
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box img{
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 100%;
+height: 100%;
+    }
+    .article-link{
+        border: 1px solid black;
+width: 100%;
+text-decoration: none;
+color:black
+    }
+
+    .articleImage{
+        height: 50px;
+        width: 50px;
+    }
+
+    .postUser{
+        display:flex;
+        flex-direction: row;
+    
+
+align-items: center;
+    }
+    .postUser img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .postUser p{
+        font-weight: 600px;
+    }
