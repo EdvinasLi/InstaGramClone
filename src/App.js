@@ -6,27 +6,29 @@ import Homepage from "./pages/regular/homepage";
 import AdminDashboard from "./pages/admin/dashboard";
 import Firstview from "./pages/regular/firstview";
 import Header from "./components/header/header";
+import Registration from "./pages/regular/registration";
 
 
 function App() {
- 
+
   return (
     <BrowserRouter>
- 
+
       <Header />
-      
-        <div className="container">
-          
-          <Routes>
+
+      <div className="container">
+
+        <Routes>
           <Route path="/" element={<Firstview />} />
-            <Route path="/homepage" element={<Homepage />} />
-            <Route path="admin">
-              <Route index element={<AdminDashboard />} />
-              <Route path="new" element={<AdminDashboard />} />
-            </Route>
-          </Routes>
-        </div>
-     
+          <Route path="/homepage" element={<Homepage />} />
+          <Route path="/register" element={<Registration />} />
+          <Route path="admin">
+            <Route index element={<AdminDashboard />} />
+            <Route path="new" element={<AdminDashboard />} />
+          </Route>
+        </Routes>
+      </div>
+
     </BrowserRouter>
   );
 }

@@ -1,0 +1,44 @@
+.mainBody{
+    background-color:rgb(250, 247, 247)
+}
+
+.regTable{
+    display:flex;
+    flex-direction:column;
+    width: 24rem;
+    height: 100%;
+    
+    gap:20px
+}
+.regForm{
+    display:flex;
+    margin:0 auto;
+    flex-direction:column;
+    width:100%;
+    height: 100%;
+    margin-top:20px;
+    justify-content: center;
+align-items: center;
+gap:10px;
+background-color: white;
+border:1px solid black
+
+}
+.input{
+    border-radius: 3px 3px 3px 3px;
+
+width: 15rem;
+height: 2rem;
+}
+.regForm button{
+    background-color: rgb(160, 160, 221);
+    width: 20em;
+height: 2rem;
+border-radius: 10px 10px 10px 10px;
+}
+.loginTable{
+    border:1px solid black;
+    text-align: center;
+    background-color: white;
+   
+}

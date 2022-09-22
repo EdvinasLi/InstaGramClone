@@ -100,3 +100,55 @@ align-items: center;
     .postUser p{
         font-weight: 600px;
     }
+    .commentDisplay { 
+        max-width: 400px;
+max-height: 150px;
+overflow:hidden;
+
+    }
+    .commentArea{
+        width:500px;
+        
+
+    }
+    .comment{
+        width:100%
+    }
+    .commentInput{
+        width:100%
+    }
+   
+    .pou textarea{
+        
+        width: 90%;
+        border-radius:14px 14px 14px 14px;
+        
+    }
+    .pou button{
+        height: 44px;
+    width: 65px;
+    margin-left: 5px;
+    }
+.pou{
+    margin-top:10px;
+    display:flex;
+}
+    .Likes{
+        width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+    .icons2{
+        flex: 1;
+    justify-content: end;
+    display: flex;
+    }
+    .icons1{
+        flex: 1;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icons1 svg:hover{
+      color:red
+    }
